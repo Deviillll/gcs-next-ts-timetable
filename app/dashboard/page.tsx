@@ -1,5 +1,7 @@
 // import image from 'next/image'
 
+import Allocation from "../components/allocation/Allocation"
+
 const DashBoard = () => {
 
   //create an array of 50 images url from unsplash
@@ -19,6 +21,9 @@ const DashBoard = () => {
 
   return (
     <div>
+     
+     <Allocation sectionid={1} slotid={1}	/>
+     
       {/* for each object in images */}
       {$images.map((image) => (
         <div key={image.id}>

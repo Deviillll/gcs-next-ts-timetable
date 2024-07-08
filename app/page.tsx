@@ -1,3 +1,4 @@
+import Allocation from './components/allocation/Allocation';
 import DemoAPI from './components/DemoAPI';
 import SelectTeacher from './components/teacher/SelectTeacher';
 
@@ -10,6 +11,8 @@ export default function Home() {
     <>
 
     <SelectTeacher />
+
+    <Allocation sectionid={1} slotid={1}	/>
 
       <DemoAPI />
 

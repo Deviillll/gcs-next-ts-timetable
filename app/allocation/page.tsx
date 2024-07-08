@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import AllocationTable from "../components/allocation/AllocationTable";
-// import Allocation from "../components/allocation/Allocation";
+import Allocation from "../components/allocation/Allocation";
+// import Allocation from '../components/allocation/Allocation';
 
 const AllocationPage = () => {
 	const slots = [
@@ -33,7 +34,7 @@ const AllocationPage = () => {
 	];
 
 	const semesters = [
-		{ id: 1, name: "1st" },
+		{ id: 1, name: "1st22" },
 		{ id: 3, name: "3rd" },
 		{ id: 5, name: "5th" },
 		{ id: 7, name: "7th" },
@@ -47,6 +48,9 @@ const AllocationPage = () => {
 					semesters={semesters}
 					sections={sections}
 				/>
+
+				
+
 			</StrictMode>
 		</div>
 	);
